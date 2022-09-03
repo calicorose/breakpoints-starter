@@ -1,20 +1,13 @@
 
 /* ----------- For screens 768px and larger ----------- */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1199px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 768px) {
 	body {
     background: red;
   }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
-@media screen 
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-width: 1200px) {
   body {
     background: pink;
   }
